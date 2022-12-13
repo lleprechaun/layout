@@ -1,0 +1,29 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: white;
+    font-weight: 400;
+    background-color: black;
+}
+.body{
+    background: url("/img/main-screen__bgc.png") black no-repeat;
+    background-size: cover;
+}
+a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+.button{
+    display: inline-block;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

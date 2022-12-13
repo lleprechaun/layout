@@ -1,0 +1,44 @@
+.header{
+    margin-top: 3vh;
+    margin-left: 3.5vw;
+    margin-right: 3.5vw;
+    max-width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__link{
+
+}
+.header__logo{
+    width: 30px;
+    height: 30px;
+}
+.header__nav{
+    margin-left: 10vw;
+}
+.nav{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+}
+.nav__list{
+    list-style-type: none;
+}
+.nav__item{
+    margin: 0 20px;
+}
+.nav__link{
+
+}
+.header__button {
+
+}
+.header__input{
+    color:white;
+    padding:1vh 1.5vw;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
