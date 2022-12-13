@@ -6,7 +6,7 @@ body{
     background-color: black;
 }
 .body{
-    background: url("/img/main-screen__bgc.png") black no-repeat;
+    background: url("../img/main-screen__bgc.png") black no-repeat;
     background-size: cover;
 }
 a{
