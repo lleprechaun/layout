@@ -13,7 +13,6 @@
 .footer-description__p{
     font-weight: 700;
     font-size: 35px;
-    line-height: 140%;
     margin-bottom: 0;
 }
 .footer-description_opacity{
@@ -40,6 +39,7 @@
     height: 35px;
     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
     margin: 0 13px;
+    padding: 0;
 }
 .social__link--facebook{
     width: 8px;

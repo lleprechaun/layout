@@ -1,14 +1,20 @@
 .main{
-
+    margin-top: 160px;
 }
 .main-container{
 
 }
-.main-logo{
-
+.main-h{
+    margin: 0;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 140%;
 }
-.main-logo__img{
-    width: 100%;
-    padding: 0;
-    margin-top: -10vh;
+.main-text{
+    margin: 0;
+    font-size: 12px;
+    line-height: 140%;
+}
+.main-text_opacity{
+    opacity: 0.4;
 }

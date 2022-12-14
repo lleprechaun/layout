@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/main/main.css">
+    <link rel="stylesheet" href="./css/main/main-course.css">
+    <link rel="stylesheet" href="./css/main/main-course-reserve.css">
+    <link rel="stylesheet" href="./css/main/main-content.css">
 </head>
 <body class="body">
     <header class="header">
@@ -33,8 +36,74 @@
 
     <main class="main">
         <div class="main-container">
-            <div class="main-logo">
-
+            <div class="main-course">
+                <p class="main-course__p">Первый курс</p>
+                <p class="main-course__p">по компьютерной сборке</p>
+                <div class="flex main-course-time">
+                    <div class="flex main-course-time__border">
+                        <p class="main-h">18</p>
+                        <p class="main-text main-text_opacity">Дней</p>
+                    </div>
+                    <div class="flex main-course-time__border">
+                        <p class="main-h">18</p>
+                        <p class="main-text main-text_opacity">Часов</p>
+                    </div>
+                    <div class="flex main-course-time__border">
+                        <p class="main-h">18</p>
+                        <p class="main-text main-text_opacity">Минут</p>
+                    </div>
+                    <div class="flex main-course-time__border">
+                        <p class="main-h">18</p>
+                        <p class="main-text main-text_opacity">Секунд</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main-course-reserve">
+                <div class="flex main-course-reserve__container">
+                    <div class="main-course-reserve__button">
+                        <input class="button main-course-reserve__input" type="button" value="Заказать курс">
+                    </div>
+                    <div class="flex main-course-reserve-statistic">
+                        <div class="flex main-course-reserve-statistic__row">
+                            <p class="main-text reserve-statistic__text">Учеников всего:</p>
+                            <p class="main-text reserve-statistic__num">200</p>
+                        </div>
+                        <div class="flex main-course-reserve-statistic__row">
+                            <p class="main-text reserve-statistic__text">Успешно закончили курс:</p>
+                            <p class="main-text reserve-statistic__num">190</p>
+                        </div>
+                    </div>
+                    <div class="main-course-reserve-profit">
+                        <div class="flex main-course-reserve-profit__row">
+                            <p class="main-text reserve-statistic__text">Заработано учениками:</p>
+                            <p class="main-text reserve-statistic__num">400 000₽</p>
+                        </div>
+                        <div class="flex profit-progress-bar-wrapper">
+                            <div class="main-course-reserve-profit-progress-bar">
+                                <div class="main-course-reserve-profit-progress-bar-fill"></div>
+                            </div>
+                            <div class="flex profit-progress-bar-captions">
+                                <span class="main-text reserve-statistic__text">0</span>
+                                <span class="main-text reserve-statistic__text">1 000 000₽</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="flex main-content-what-do">
+                    <div class="flex what-do__img">
+                        <div class="flex what-do__img--rectangle1">
+                            <img class="what-do__img--computer" src="./img/content/computer.png" alt="computer">
+                        </div>
+                    </div>
+                    <div class="what-do-description">
+                        <p class="main-h what-do-description__h">Чем мы занимаемся?</p>
+                        <p class="main-text what-do-description__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget neque, dignissim et feugiat elit augue in suspendisse egestas. Dictum vestibulum mi et sed nunc, orci fermentum vestibulum, morbi. Et neque, adipiscing sapien sem senectus praesent aenean consequat. Aenean facilisi turpis aliquet fringilla. Nunc sem felis sed interdum feugiat mattis elit, sollicitudin. Quam pharetra rhoncus risus, cursus id elementum aliquet. Nullam turpis arcu malesuada arcu interdum placerat nisi, lobortis.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </main>

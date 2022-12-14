@@ -4,10 +4,13 @@ body{
     color: white;
     font-weight: 400;
     background-color: black;
+    line-height: 140%;
+    margin: 0;
 }
 .body{
+    width: 100%;
     background: url("../img/main-screen__bgc.png") black no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 a{
     font-family: 'Roboto', sans-serif;
@@ -21,6 +24,14 @@ a{
     text-align: center;
     border: none;
     border-radius: 50px;
+    color:white;
+    padding:1vh 1.5vw;
+}
+.button:active{
+    box-shadow:
+            inset rgba(0,0,0,1) 0 1px 3px,
+            0 1px rgba(0,0,0,1);
+    color: black;
 }
 .flex{
     display: flex;

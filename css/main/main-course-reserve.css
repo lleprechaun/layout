@@ -1,0 +1,65 @@
+.main-course-reserve{
+    width: 100%;
+    background-color: #121212;
+    margin-top: 170px;
+}
+.main-course-reserve__container{
+    justify-content: space-between;
+    margin-left: 235px;
+    margin-right: 235px;
+    padding: 20px 0;
+}
+.main-course-reserve__button{
+
+}
+.main-course-reserve__input{
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+.main-course-reserve-statistic{
+    flex-direction: column;
+}
+.main-course-reserve-statistic__row{
+    justify-content: space-between;
+    width: 190px;
+    margin: 5px 0;
+}
+.reserve-statistic__text{
+    line-height: 150%;
+    opacity: 0.4;
+}
+.reserve-statistic__num{
+    text-align: end;
+    font-weight: 700;
+    color: white;
+}
+
+.main-course-reserve-profit{
+    width: 55%;
+}
+.main-course-reserve-profit__row{
+    width: 40%;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+.profit-progress-bar-wrapper{
+    flex-direction: column;
+}
+.main-course-reserve-profit-progress-bar{
+    overflow: hidden;
+    position: relative;
+    background: white;
+    height: 5px;
+    width: 100%;
+}
+.main-course-reserve-profit-progress-bar-fill{
+    position: absolute;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 40%;
+}
+.profit-progress-bar-captions{
+    width: 100%;
+    justify-content: space-between;
+}
