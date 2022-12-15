@@ -1,5 +1,5 @@
 .footer{
-
+    margin: 130px 16% 130px 16%;
 }
 .footer-container{
     display: flex;
@@ -23,13 +23,24 @@
     margin-right: auto;
 }
 .footer-email{
-
+    width: 370px;
+    margin-top: 30px;
 }
 .footer-email__input{
-
+    border-radius: 50px 0 0 50px;
+    background: #3e3e3e;
+    color: white;
+    text-align: left;
+    font-size: 10px;
+    width: 59%;
+    height: 15px;
+    margin-right: -20px;
 }
 .footer__input{
-
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+.footer__link{
+    margin-top: 30px;
 }
 .social__item{
     margin: 0;

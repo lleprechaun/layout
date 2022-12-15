@@ -1,13 +1,13 @@
 .main-course{
-    margin-left: 235px;
-    margin-right: 235px;
+    margin-left: 16%;
+    margin-right: 16%;
 }
 .main-course__p{
     font-weight: 700;
     font-size: 46px;
 }
 .main-course-time{
-    margin-top: 55px;
+    margin-top: 6%;
     justify-content: flex-start;
 }
 .main-course-time__border{
